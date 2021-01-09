@@ -1,0 +1,219 @@
+/* ↓ここから共通↓ */
+
+body {
+  margin: 0px;
+  padding:0px;
+  font-family: "ヒラギノ明朝";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+ 
+}
+
+.top-wrapper {
+  height:420px;
+  padding: 130px 0 200px 0;
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/18.jpg); */
+  background-image: url('./18.JPG');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 180px;
+  
+}
+
+header {
+  background-color:#800000;
+  height:50px;
+  padding-top:0px;
+  margin:0px;
+  color:white;
+
+}
+
+/* リンクの文字白に */
+header a {
+  color:white;
+}
+
+
+/* ヘッダー上の空白削除 */
+ul {
+  margin:0px;
+}
+
+li {
+  list-style:none;
+  float:left;
+  font-size:30px; 
+  padding:0px 20px;
+  padding-top:2px;
+}
+
+
+/* ↑ここまで共通↑ */
+
+/* ↓タイトル、文章、写真2つ横並び(divの箱2つ横並び)↓ */
+
+.second-wrapper {
+  height:1400px;
+  background-color:white;
+}
+
+/* 文字を中央に配置 */
+.second-wrapper h1 {
+  text-align:center;
+  font-size:80px;
+}
+
+.second-wrapper h2 {
+  text-align:center;
+  font-size:60px;
+}
+
+.mission-2 h2 {
+  text-align:center;
+  font-size:60px;
+  margin-bottom:15px;
+}
+
+.second-wrapper p {
+  text-align:center;
+}
+
+.image-left {
+  float:left;
+  width:720px;
+  height:405px;
+  background-color:white;
+}
+
+.image-right {
+  float:left;
+  width:720px;
+  height:405px;
+  background-color:white;
+}
+
+.mission-1 .image-right {
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/19.jpg); */
+  background-image: url('./19.JPG');
+}
+
+.mission-2 .image-left {
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/20.jpg); */
+  background-image: url('./20.JPG');
+}
+
+.container p{
+  margin-bottom:50px;
+  font-size:25px;
+}
+
+.missions p {
+  font-size:20px;
+  margin-top:0px;
+}
+
+
+
+/* ↑タイトル、文章、写真↑ */
+
+
+
+/* ↓タイトル、文章、文字、画像真ん中↓ */
+
+.third-wrapper h1{
+  text-align:center;
+  font-size:80px;
+}
+
+.third-wrapper p{
+  text-align:center;
+}
+
+.third-wrapper a {
+  color:black;
+}
+
+.third-wrapper .member{
+  width:360px;
+  height:360px;
+  position:absolute;
+  top:300px;
+  left:632px;
+}
+
+.third-wrapper .qr{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:370px;
+  left:450px;
+}
+
+
+
+.third-wrapper {
+  /* フッターとの距離を調整 */
+  height:700px;
+  position:relative;
+}
+
+/* ↑タイトル、文章、文字、画像真ん中↑ */
+
+/* ↓フッター↓ */
+
+footer {
+  background-color:#ffa500;
+  height:370px;
+  padding-top:0px;
+  margin:0px;
+  color:white;
+}
+
+footer img {
+  display:inline-block;
+  float:left;
+  margin:20px 20px;
+}
+
+/* 潜り込みを解消 */
+.info {
+  clear:both;
+}
+
+.info p {
+  margin:5px 15px;
+}
+
+.info .name {
+  font-size:45px;
+  margin:0px 20px;
+}
+
+.info a {
+  color:white;
+}
+
+/* ↑フッター↑ */
+
+
+
+
+
+
+
+
+
+
