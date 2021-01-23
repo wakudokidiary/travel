@@ -1,0 +1,218 @@
+@media (max-width: 1200px) {
+
+  * {
+    box-sizing:border-box;
+  }
+
+
+  .box1 {
+    /* background-color:red; */
+    width:100%;
+    height:500px;
+    /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/18.jpg); */
+    background-image: url('./18.JPG');
+    background-size:cover;
+    color:white;
+    text-align:center;
+  }
+  
+  .box1 h1 {
+    padding-top:200px;
+    font-size:55px;
+  }
+  
+  header {
+    background-color:#800000;
+    width:100%;
+    height:60px;
+  }
+  
+  ul {
+    width:2000px;
+  }
+  
+  li {
+    float:left;
+    list-style:none;
+    padding:20px 45px;
+    font-size:15px;
+    color:white;
+  }
+
+  .box2 {
+    /* background-color:pink; */
+    width:100%;
+    height:650px;
+    text-align:center;
+  }
+  
+  .box2 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+  
+  .box2 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:50px;
+  }
+
+  .box3 h2 {
+    font-size:40px;
+    padding-top:15px;
+  }
+  
+  .box3 p {
+    font-size:18px;  
+    padding-top:5px;
+    padding-bottom:80px;
+    line-height:30px;
+  }
+
+  .box3 .mission {
+    padding-top:40px;
+  }
+
+
+  .box3 {
+    /* background-color:green; */
+    width:100%;
+    height:550px;
+    text-align:center;
+  }
+
+  .box3-one {
+    /* background-color:blue; */
+    width:100%;
+    height:270px;
+  }
+  
+  .one-left {
+    float:left;
+    width:50%;
+    height:250px;
+    /* background-color:black; */
+  }
+  
+  .one-right {
+    float:left;
+    width:50%;
+    height:250px;
+    /* background-color:purple; */
+    /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/19.jpg); */
+    background-image: url('./19.JPG');  
+    background-size:cover;
+  }
+
+  .box3-two {
+    /* background-color:green; */
+    width:100%;
+    height:270px;
+  }
+  
+  .two-left {
+    float:left;
+    width:50%;
+    height:250px;
+    /* background-color:black; */
+    /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/20.jpg); */
+    background-image: url('./20.JPG');  
+    background-size:cover;
+  }
+  
+  .two-right {
+    float:left;
+    width:50%;
+    height:250px;
+    /* background-color:blue; */
+  }
+
+  .box4 {
+    background-color:pink;
+    width:100%;
+    height:650px;
+    text-align:center;
+    position:relative;
+  }
+  
+  .box4 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+  
+  .box4 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:50px;
+  }
+
+  .qr {
+    position:absolute;
+    top:430px;
+    left:270px;
+    width:180px;
+    height:180px;
+  }
+  
+  .member {
+    position:absolute;
+    top:370px;
+    left:430px;
+    width:300px;
+    height:300px;
+  }
+
+  footer {
+    background-color:#ffa500;
+    width:100%;
+    height:320px;
+  }
+  
+  footer img {
+    float:left;
+    margin:20px 8px;
+    width:48px;
+    height:50px;
+  }
+  
+  .info p {
+    margin:2px 15px;
+    font-size:15px;
+  }
+  
+  .info .name {
+    font-size:25px;
+    margin:0px 20px;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
