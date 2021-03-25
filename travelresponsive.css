@@ -208,7 +208,7 @@
 
 #biggestfuki {
   position:fixed;
-  top:-450px;
+  top:500px;
   left:100px;
   display:none;
   z-index:5;
