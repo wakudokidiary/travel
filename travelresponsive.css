@@ -208,8 +208,8 @@
 
 #biggestfuki {
   position:fixed;
-  top:600px;
-  left:0px;
+  top:750px;
+  left:150px;
   display:none;
   z-index:5;
 }
