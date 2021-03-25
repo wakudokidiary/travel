@@ -46,9 +46,11 @@
 
   .box2 {
     /* background-color:pink; */
+    background-color:#ffebcd;
     width:100%;
     height:1500px;
     text-align:center;
+    position:relative;
   }
   
   .box2 h2 {
@@ -66,8 +68,17 @@
     line-height:70px;
   }
 
-  .box2 img {
+  #buzz {
     display:none;
+  }
+
+  #nabe {
+    display:none;
+    position:absolute;
+    top:1800px;
+    left:690px;
+    width:250px;
+    height:250px;
   }
 
 
@@ -95,6 +106,7 @@
 
   .box3 {
     /* background-color:green; */
+    background-color:#ffebcd;
     width:100%;
     height:900px;
     text-align:center;
@@ -102,6 +114,7 @@
 
   .box3-one {
     /* background-color:blue; */
+    background-color:#ffebcd;
     width:100%;
     height:300px;
   }
@@ -111,6 +124,7 @@
     width:100%;
     height:400px;
     /* background-color:red; */
+    background-color:#ffebcd;
   }
   
   .one-right {
@@ -118,6 +132,7 @@
     width:50%;
     height:250px;
     /* background-color:purple; */
+    background-color:#ffebcd;
     /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/19.jpg); */
     background-image: url('./19.JPG');  
     background-size:cover;
@@ -135,6 +150,7 @@
     width:50%;
     height:250px;
     /* background-color:black; */
+    background-color:#ffebcd;
     /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/20.jpg); */
     background-image: url('./20.JPG');  
     background-size:cover;
@@ -146,10 +162,12 @@
     width:100%;
     height:500px;
     /* background-color:blue; */
+    background-color:#ffebcd;
   }
 
   .box4 {
     /* background-color:pink; */
+    background-color:#ffebcd;
     width:100%;
     height:1050px;
     text-align:center;
@@ -175,8 +193,8 @@
     position:absolute;
     top:750px;
     left:270px;
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
   }
   
   .member {
@@ -185,7 +203,29 @@
     left:430px;
     width:350px;
     height:350px;
+    z-index:3;
   }
+
+#biggestfuki {
+  position:fixed;
+  top:-450px;
+  left:100px;
+  display:none;
+  z-index:5;
+}
+
+#fuki {
+  display:none;
+  position:absolute;
+  top:695px;
+  left:600px;
+  width:290px;
+  height:290px;
+
+}
+
+
+
 
   footer {
     background-color:#ffa500;

@@ -8,6 +8,7 @@
 content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="travel.css">
 <link rel="stylesheet" href="travelresponsive.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -29,13 +30,14 @@ content="width=device-width, initial-scale=1.0">
 </header>
 
 <div class="box2">
-  <h2>“わくどき”してる？</h2>
+  <h2><span id="fukitrigger">“わくどき”</span>してる？</h2>
   <p>2019年10月、埼玉県越谷市を起点に<br>
     わくどきダイアリーの旅はスタートしました。</p>
     
     <p>-好きなことに全力で取り組めば、<br>
       それはいつしか仕事になり人生になる-<br>
-    そんな文化を実現するため、<br>最高の仲間と共に冒険をしています。</p>
+    そんな文化を実現するため、<br>
+    最高の仲間</span>と共に冒険をしています。</p>
     
     <p>『何歳になってもわくどきした気持ちを<br>大切にしたい』</p>
     <p>『自分らしく楽しんでいた、<br>あのこどもの頃のような日々を過ごしたい』</p>
@@ -44,8 +46,10 @@ content="width=device-width, initial-scale=1.0">
     
    <p> 一緒に"わくどき"な人生を実現していきましょう!!
   </p>
-  <!-- <img src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/buzz.png"> -->
-  <img src="./buzz.PNG">
+  <!-- <img id="buzz" src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/buzz.png"> -->
+  <img id="buzz" src="./buzz.PNG">
+  <!-- <img id="nabe" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/nabe.PNG">  -->
+  <img id="nabe" src="./nabe.PNG">
 
 </div>
 
@@ -55,7 +59,7 @@ content="width=device-width, initial-scale=1.0">
   <div class="box3-one">
     <div class="one-left text">
       <h2>ミッション</h2>
-      <p class="mission">好きなことに全力で取り組めば、<br>
+      <p class="mission"><span id="nabetrigger">好きなこと</span>に全力で取り組めば、<br>
         それはいつしか仕事になり人生になる。<br>
         そんな文化をつくります。</p>
     </div>
@@ -84,10 +88,14 @@ content="width=device-width, initial-scale=1.0">
     動画に残しています。</p>
     <p>旅の模様が気になった方、<br>わくどきダイアリーがどんなチームなのか<br>
     もっと知りたい方は覗いてみてください。</p>
-  <!-- <img class="qr" src="file:///Users/shunki/Desktop/MyPortforio/QRコード画像/YouTube.png"> -->
-  <img class="qr" src="./youtube.png">
+  <!-- <img class="qr" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/youtubeqr.png"> -->
+  <img class="qr" src="./youtubeqr.PNG">
   <!-- <img class="member" src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/yonin.png">  -->
   <img class="member" src="./yonin.PNG">
+  <!-- <img id="fuki" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/fuki.png">  -->
+  <img id="fuki" src="./fuki.PNG">
+  <!-- <img id="biggestfuki" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/biggestfuki.PNG"> -->
+  <img id="biggestfuki" src="./biggestfuki.PNG">
 
 </div>
 
@@ -113,7 +121,7 @@ content="width=device-width, initial-scale=1.0">
 
 </footer>
 
-
+<script src="travel.js"></script>
 
 
   
