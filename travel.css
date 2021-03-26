@@ -209,5 +209,35 @@ footer a {
 
 
 
+#biggestfuki {
+  position:fixed;
+  top:720px;
+  left:100px;
+  display:none;
+  z-index:5;
+}
+
+#fuki {
+  display:none;
+  position:absolute;
+  top:695px;
+  left:600px;
+  width:290px;
+  height:290px;
+
+}
+
+#buzz {
+  display:none;
+}
+
+#nabe {
+  display:none;
+  position:absolute;
+  top:1800px;
+  left:690px;
+  width:250px;
+  height:250px;
+}
 
 
